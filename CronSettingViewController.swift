@@ -167,9 +167,9 @@ class CronSettingViewController: UIViewController {
         //        経路設計
         switch (status){
         case .online(.wiFi):
-            urlString = "http://192.168.1.10:10080/myhome?_t&device=cron_state"
+            urlString = "https://hogehoge"
         case .online(.wwan):
-            urlString = "http://118.241.146.6:10080/myhome?_t&device=cron_state"
+            urlString = "https://hogehoge"
         default:
             print("ERROR")
             
